@@ -1,0 +1,109 @@
+body{
+    font-family:Arial, sans-serif;
+    background-color:#f2f2f2;
+}
+
+.krishna{
+    width:90%;
+    margin:auto;
+    padding:20px;
+}
+
+section{
+   
+    background:white;
+    margin-bottom:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 8px rgb(23, 167, 5);
+}
+
+.head{
+    color: blue;
+    background:#a7ae41;
+    text-align:center;
+}
+
+.head h1{
+    margin-bottom:10px;
+}
+
+.head p{
+    font-size:18px;
+}
+
+.ab{
+    overflow:hidden;
+}
+
+.logo{
+    width:30%;
+    float:left;
+    text-align:center;
+}
+
+.logo img{
+  
+    border-radius:10px;
+    border:3px solid #003366;
+}
+
+
+
+.content p{
+   color: #9b1766;
+    font-weight: bold;
+    font-size:18px;
+    line-height:1.8;
+   
+}
+
+h2{
+    color:#9b1766;
+    margin-bottom:15px;
+}
+
+ol{
+    margin-left:30px;
+    line-height:2;
+}
+
+ul{
+    margin-left:30px;
+    line-height:2;
+}
+
+.image-box{
+    text-align:center;
+    display: flex;
+    gap: 10px;
+}
+
+.image-box img{
+   
+    border:4px solid #003366;
+    border-radius:10px;
+}
+
+a{
+    display:inline-block;
+    background:#66000e;
+    color:white;
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+a:hover{
+    background:#08ac08;
+}
+
+.footer{
+    background:#8b8f92;
+    color:white;
+    text-align:center;
+}
+
+.footer h3{
+    margin-bottom:10px;
+}
