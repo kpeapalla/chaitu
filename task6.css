@@ -90,8 +90,11 @@ section h2 {
 }
 
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    gap: 20px;
+}
+figure{
+    display: flex;
     gap: 20px;
 }
 
