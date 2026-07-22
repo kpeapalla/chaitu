@@ -1,0 +1,63 @@
+body{
+    background:#d7c8c8;
+    font-family:Arial, sans-serif;
+}
+
+.krishna{
+    width:400px;
+    margin:40px auto;
+    background:#116099;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 0 10px gray;
+}
+
+h2{
+    text-align:center;
+    color:rgb(128, 0, 0);
+    margin-bottom:20px;
+}
+
+.aa{
+    margin-bottom:15px;
+}
+
+label{
+    display:block;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.radio input{
+    width:auto;
+    margin-right:5px;
+}
+.aa select{
+    width: 200px;
+}
+
+.button{
+    text-align:center;
+}
+
+.button input{
+    width:120px;
+    margin:10px;
+    background:green;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.button input:hover{
+    background:rgb(162, 74, 16);
+}

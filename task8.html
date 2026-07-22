@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricketer Registration Form</title>
+    <link rel="stylesheet" href="task8.css">
+</head>
+<body>
+
+<div class="krishna">
+
+    <h2>Cricketer Registration Form</h2>
+
+    <form>
+
+        <div class="aa">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name">
+        </div>
+
+        <div class="aa">
+            <label>Email</label>
+            <input type="email"  placeholder="Enter your email">
+        </div>
+
+        <div class="aa">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter your phone number" pattern="[0-9]{10}" maxlength="10">
+        </div>
+
+        <div class="aa">
+            <label>Date of Birth</label>
+            <input type="date">
+        </div>
+
+        <div class="aa">
+            <label>Gender</label>
+            <div class="radio">
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+            </div>
+        </div>
+
+        <div class="aa">
+            <label>Playing Role</label>
+            <select>
+                <option>Select Role</option>
+                <option>Batsman</option>
+                <option>Bowler</option>
+                <option>All Rounder</option>
+                <option>Wicket Keeper</option>
+            </select>
+        </div>
+
+        <div class="aa">
+            <label>Upload Photo</label>
+            <input type="file">
+        </div>
+
+        <div class="aa">
+            <label>Address</label>
+            <textarea rows="4" placeholder="Enter your address"></textarea>
+        </div>
+
+        <div class="button">
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>

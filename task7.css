@@ -1,0 +1,202 @@
+
+
+body{
+    background:#f5f5f5;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    background:#fff;
+}
+
+.logo img{
+    width:70px;
+}
+
+.menu a{
+    text-decoration:none;
+    color:#000;
+    margin:20px;
+    font-weight:bold;
+}
+
+.buttons button{
+    padding:10px 20px;
+    border-radius:20px;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+.join{
+    background:#000;
+    color:#fff;
+}
+
+.banner{
+    background:#1b4e32;
+    color:#fff;
+    text-align:center;
+    padding:40px;
+}
+
+.banner button{
+    margin-top:20px;
+    padding:12px 25px;
+    border:none;
+    border-radius:25px;
+    background:#fff;
+    color:#9e5620;
+    cursor:pointer;
+}
+
+body{
+    background:#ffffff;
+}
+
+.container{
+    width:98%;
+    margin:20px auto;
+}
+
+.row{
+    display:flex;
+    margin-bottom:25px;
+    background:#fff;
+}
+
+.reverse{
+    flex-direction:row;
+}
+
+.image-box,
+.text-box{
+    width:50%;
+}
+
+.image-box img{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:cover;
+}
+
+.text-box{
+    background:#006241;
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:60px;
+}
+
+.text-box h2{
+    font-size:38px;
+    margin-bottom:25px;
+    font-weight:bold;
+}
+
+.text-box p{
+    font-size:22px;
+    line-height:1.8;
+    margin-bottom:35px;
+    max-width:650px;
+}
+
+.text-box a{
+    text-decoration:none;
+    color:#fff;
+    border:2px solid #fff;
+    padding:12px 30px;
+    border-radius:30px;
+    font-size:18px;
+    transition:.3s;
+}
+
+.text-box a:hover{
+    background:#fff;
+    color:#006241;
+}
+
+
+
+
+.footer{
+
+display:flex;
+
+justify-content:space-between;
+
+padding:50px;
+
+border-top:1px solid #ddd;
+
+}
+
+.column{
+
+width:18%;
+
+}
+
+.column h3{
+
+margin-bottom:25px;
+
+font-size:24px;
+
+}
+
+.column p{
+
+margin:18px 0;
+
+font-size:18px;
+
+color:#555;
+
+cursor:pointer;
+
+}
+
+.column p:hover{
+
+color:#006241;
+
+}
+
+.social{
+
+padding:30px 50px;
+
+border-top:1px solid #ddd;
+
+}
+
+.social img{
+
+width:40px;
+
+margin-right:18px;
+
+cursor:pointer;
+
+}
+
+.bottom{
+
+padding:20px 50px 50px;
+
+}
+
+.bottom p{
+
+margin:15px 0;
+
+font-size:17px;
+
+}
